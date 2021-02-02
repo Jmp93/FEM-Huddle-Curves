@@ -1,0 +1,143 @@
+.footer {
+  padding-top: 5rem;
+  color: #fff;
+  background-color: $cyan;
+
+  .flex {
+    align-items: center;
+  }
+
+  &__primary {
+    @media (min-width: 56.25rem) {
+      order: 2;
+    }
+  }
+
+  &__main {
+    font-size: 1.375rem;
+    font-family: $poppins;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+  }
+
+  &__sub {
+    font-family: $open;
+    line-height: 2;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+
+    @media (min-width: 56.25rem) {
+      width: 60%;
+    }
+  }
+
+  &__form {
+    margin-bottom: 9.6875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    @media (min-width: 56.25rem) {
+      flex-direction: row;
+    }
+  }
+
+  &__input {
+    padding: 1.2rem 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+
+    @media (min-width: 56.25rem) {
+      min-width: 60%;
+    }
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-family: $open;
+    letter-spacing: 1px;
+    font-weight: 700;
+    width: 50%;
+    background: $pink;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    transition: all 300ms ease-in-out;
+
+    @media (min-width: 56.25rem) {
+      margin-left: 2rem;
+    }
+
+    &:hover {
+      background-color: $l-pink;
+    }
+  }
+
+  &__logo {
+    margin-bottom: 4.5rem;
+  }
+
+  &__img {
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    font-family: $open;
+    letter-spacing: 1px;
+    // line-height: 1.6;
+
+    @media (min-width: 56.25rem) {
+      max-width: 60%;
+    }
+  }
+
+  &__contact {
+    margin-bottom: 4.5rem;
+
+    @media (min-width: 56.25rem) {
+      margin-bottom: 2.5rem;
+    }
+
+    img {
+      padding-right: 1.5rem;
+      line-height: 1.6;
+    }
+  }
+
+  &__phone,
+  &__email {
+    display: flex;
+    align-items: center;
+  }
+
+  &__phone {
+    font-family: $open;
+    margin-bottom: 1rem;
+  }
+
+  &__number,
+  &__address {
+    letter-spacing: 0.8px;
+  }
+
+  &__socials {
+    padding-bottom: 3rem;
+
+    @media (min-width: 56.25rem) {
+      padding-bottom: 5rem;
+    }
+
+    i {
+      font-size: 2rem;
+
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
