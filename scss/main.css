@@ -104,7 +104,7 @@ section img {
   position: relative;
 }
 
-@media (min-width: 56.25rem) {
+@media (min-width: 50rem) {
   .ready {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -372,6 +372,7 @@ nav .btn-nav {
   background-position: center top;
   background-repeat: no-repeat;
   padding-top: 13.125rem;
+  padding-bottom: 15rem;
   position: relative;
 }
 
